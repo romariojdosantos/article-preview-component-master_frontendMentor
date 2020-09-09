@@ -5,32 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <title>Frontend Mentor | Article preview component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+  <div class="container">
+    <div class="post">
+      <main class="post-img">
+        <img src="images/drawers-1.jpg" alt="">
+      </main>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+      <article class="post-item">
+        <h1 class="heading-text">Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home</h1>
+        <p class="body-text">Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.</p>  
+            <img class="avatar-img" src="images/avatar-michelle.jpg" alt="">
+            <h3>Michelle Appleton</h3>
+            <span class="date">28 Jun 2020</span>  
+            <div class="share-icon"></div>  
+            <div class="socials-shares fade-out">
+              <span class="index">Share</span>
+              <a href="#"><img src="images/icon-facebook.svg" alt=""></a>
+              <a href="#"><img src="images/icon-pinterest.svg" alt=""></a>
+              <a href="https://twitter.com/intent/tweet?text=My%20first%20projetc%20for%20FrontendMentor%21"><img src="images/icon-twitter.svg"></a>
+            </div> 
+        </article>             
+      </div>
+    </div>
 
-  Michelle Appleton
-  28 Jun 2020
+<footer class="footer">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://twitter.com/iamromariojs" target="_blank">Romário J. Santos</a>.
+</footer>
 
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+<script src="/javascript/script.js"></script>
 </body>
 </html>
