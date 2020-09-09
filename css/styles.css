@@ -67,6 +67,7 @@ h1.heading-text {
   font-weight: 700;
   font-size: 21px;
   margin-bottom: 20px;
+  color: hsl(217, 19%, 35%);
 }
 
 p.body-text {
